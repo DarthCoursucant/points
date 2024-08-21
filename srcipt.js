@@ -56,3 +56,15 @@ function poplateHeroes(obj) {
         section.appendChild(myArticle);
     }
 }
+
+class SuperHero {
+    // properties (opt);
+
+    // construcotr
+    constructor (name, age, secretIdentity, powers) {
+        this.name = name;
+        this.age = age;
+        this.secretIdentity = secretIdentity;
+        this.powers = powers;
+    }
+}
